@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.pre-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: #0369a1;
+  position: relative;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.pictures {
+  display: flex;
+  gap: 5;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: max-content !important;
+}
+
+.mobile {
+  max-width: fit-content;
+  height: auto;
+}
