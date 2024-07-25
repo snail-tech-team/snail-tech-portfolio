@@ -154,13 +154,13 @@ export default function Project() {
                   {project.linkRepository}
                 </a>
               </p>
-              <p className="text-base mb-4" style={{ fontFamily: "Roboto" }}>
+              <p className="text-base mb-4 text-justify" style={{ fontFamily: "Roboto" }}>
                 {project.description}
               </p>
               <p className="font-medium">Main Features:</p>
               <ul className="list-disc list-inside ml-4 text-sm">
                 {project.features.map((el, idx) => (
-                  <li key={idx}>{el}</li>
+                  <li className="text-justify" key={idx}>{el}</li>
                 ))}
               </ul>
             </div>

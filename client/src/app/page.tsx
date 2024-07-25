@@ -36,7 +36,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col justify-between pt-5 px-5 md:px-20 lg:px-40 container sm:overflow-y-hidden" >
+    <main className="flex min-h-screen flex-col justify-between mx-auto pt-5 px-5 md:px-20 lg:px-40 container sm:overflow-y-hidden" >
       <section className="w-full mb-36" id="navbar">
         <Navbar />
       </section>

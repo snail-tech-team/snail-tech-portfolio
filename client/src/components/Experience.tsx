@@ -27,7 +27,7 @@ export default function Experience() {
             <div className="left w-2/3">
               <h2 className="text-xl font-bold">{experience.office}</h2>
               <p className="text-gray-500">{experience.position}</p>
-              <ul className="ps-5">
+              <ul className="ps-5 text-justify">
                 {experience.tasks.map((task, idx) => (
                 <li key={idx} className="list-disc">
                   <p className="text-gray-400">{task}</p>

@@ -45,7 +45,7 @@ export default function Navbar() {
               { href: "#projects", label: "Projects" },
               { href: "#contact", label: "Contact" },
               {
-                href: "https://drive.google.com/file/d/1_UxoEaWqud03Nhf7JrPjEREnKYCAumzf/view?usp=sharing",
+                href: "https://drive.google.com/file/d/1szZcaXTorN4ce7xnTIdyTy8IjmGIxcHA/view?usp=sharing",
                 label: "CV",
                 isExternal: true,
               },
