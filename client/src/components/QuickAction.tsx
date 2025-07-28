@@ -2,9 +2,9 @@ export default function QuickAction() {
   return (
     <div className="text-center">
       <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20">
-        <div className="flex flex-col sm:flex-row gap-[8rem] justify-center">
+        <div className="flex flex-col sm:flex-row  justify-between">
           <a
-            href="https://wa.me/6281294150023"
+            href="https://wa.me/6281294150023"  
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-green-600 hover:to-green-700 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center gap-2"
