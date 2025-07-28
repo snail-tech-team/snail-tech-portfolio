@@ -3,8 +3,8 @@ import ProfilePicture from "../assets/profile_pict.jpg";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row gap-12 items-center">
-      <div className="right md:w-1/3 flex items-center justify-center md:justify-end order-1 md:order-2">
+    <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center">
+      <div className="right w-full lg:w-[40%] flex items-center justify-center lg:justify-end order-1 lg:order-2">
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
           <Image
@@ -18,8 +18,8 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="left w-full md:w-2/3 order-2 md:order-1">
-        <div className="bg-white/60 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20">
+      <div className="left w-full lg:w-[60%] order-2 lg:order-1">
+        <div className="bg-white/60 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/20">
           <div className="flex items-center mb-6">
             <div className="h-1 w-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full mr-4"></div>
             <p
@@ -45,7 +45,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <p className="text-gray-700 leading-relaxed text-lg">
+          <p className="text-gray-700 leading-relaxed text-lg text-justify">
             Full Stack Developer experienced in building ERP systems, AI-powered
             recruitment platforms, and Python-based computer vision
             applications. Skilled in Next.js, TypeScript, and Python, with a
@@ -54,16 +54,16 @@ export default function Hero() {
             maintainable code.
           </p>
 
-          <div className="flex gap-4 mt-8">
+          <div className="flex justify-between sm:justify-normal gap-4 mt-8">
             <a
               href="#contact"
-              className="cursor-pointer bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
+              className="cursor-pointer text-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
             >
               Get In Touch
             </a>
             <a
               href="#projects"
-              className="cursor-pointer border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200"
+              className="cursor-pointer text-center border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200"
             >
               View Projects
             </a>

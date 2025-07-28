@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white/80 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl sticky top-5 z-40">
+    <nav className="bg-white/80 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl sticky top-5 z-40 w-full">
       <div className="flex items-center justify-between p-6">
         {/* Left side */}
         {isOpen ? (
@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Hamburger Menu */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex items-center justify-center p-2 rounded-xl text-gray-700 hover:bg-gray-100 md:hidden transition-colors duration-200"
+          className="inline-flex items-center justify-center p-2 rounded-xl text-gray-700 hover:bg-gray-100 lg:hidden transition-colors duration-200"
           aria-controls="mobile-menu"
           aria-expanded={isOpen ? "true" : "false"}
         >
@@ -62,12 +62,11 @@ export default function Navbar() {
 
         {/* Right side */}
         <div
-          className={`${isOpen ? "block" : "hidden"} md:block md:w-auto w-full`}
+          className={`${isOpen ? "block" : "hidden"} lg:block lg:w-auto w-full`}
           id="mobile-menu"
         >
-          <ul className="flex flex-col md:flex-row md:items-center gap-2 md:gap-1 p-4 md:p-0 mt-4 md:mt-0">
+          <ul className="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-1 p-4 lg:p-0 mt-4 lg:mt-0">
             {[
-              { href: "#home", label: "Home" },
               { href: "#education", label: "Education" },
               { href: "#experience", label: "Experience" },
               { href: "#skills", label: "Skills" },

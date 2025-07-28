@@ -36,7 +36,7 @@ export default function Experience() {
                     {experience.icon}
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
                       {experience.office}
                     </h3>
                     <div className="flex items-center gap-2 mt-2">

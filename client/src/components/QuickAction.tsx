@@ -2,7 +2,7 @@ export default function QuickAction() {
   return (
     <div className="text-center">
       <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20">
-        <div className="flex flex-col sm:flex-row  justify-between">
+        <div className="flex flex-col gap-4 sm:flex-row  justify-between">
           <a
             href="https://wa.me/6281294150023"  
             target="_blank"
