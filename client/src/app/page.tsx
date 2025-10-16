@@ -47,13 +47,13 @@ export default function Home() {
           <Hero />
         </section>
 
-        <section id="education" className="mb-32">
+        {/* <section id="education" className="mb-32">
           <Education />
-        </section>
+        </section> */}
 
-        <section id="experience" className="mb-32">
+        {/* <section id="experience" className="mb-32">
           <Experience />
-        </section>
+        </section> */}
 
         <section id="skills" className="mb-32">
           <Skill />
