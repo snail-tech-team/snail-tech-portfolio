@@ -14,7 +14,7 @@ export default function Navbar() {
         ) : (
           <a href="#" className="flex items-center space-x-3">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl p-3">
-              <span className="text-2xl font-bold">MA</span>
+              <span className="text-2xl font-bold">ST</span>
             </div>
           </a>
         )}
@@ -67,8 +67,8 @@ export default function Navbar() {
         >
           <ul className="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-1 p-4 lg:p-0 mt-4 lg:mt-0">
             {[
-              { href: "#education", label: "Education" },
-              { href: "#experience", label: "Experience" },
+              // { href: "#education", label: "Education" },
+              // { href: "#experience", label: "Experience" },
               { href: "#skills", label: "Skills" },
               { href: "#projects", label: "Projects" },
               { href: "#contact", label: "Contact" },

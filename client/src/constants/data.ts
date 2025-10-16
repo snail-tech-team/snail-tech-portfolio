@@ -391,6 +391,11 @@ export const SKILL_CATEGORIES = [
         color: "from-orange-500 to-red-500",
         icon: "postman.svg",
       },
+      {
+        name: "Python",
+        color: "from-green-500 to-green-700",
+        icon: "python.jpeg",
+      },
     ],
   },
   {

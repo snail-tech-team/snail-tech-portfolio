@@ -37,7 +37,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <p className="text-center">&#169; 2025 - Marco Abel Zefanya</p>
+        <p className="text-center">&#169; 2025 - Snail Tech</p>
       </div>
     </>
   );
